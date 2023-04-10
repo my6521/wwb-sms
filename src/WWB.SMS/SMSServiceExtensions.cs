@@ -9,12 +9,12 @@ namespace WWB.SMS
 {
     public static class SMSServiceExtensions
     {
-        public static IServiceCollection AddOSSService(this IServiceCollection services, string key)
+        public static IServiceCollection AddSMSService(this IServiceCollection services, string key)
         {
-            return services.AddOSSService(DefaultOptionName.Name, key);
+            return services.AddSMSService(DefaultOptionName.Name, key);
         }
 
-        public static IServiceCollection AddOSSService(this IServiceCollection services, string name, string key)
+        public static IServiceCollection AddSMSService(this IServiceCollection services, string name, string key)
         {
             using (ServiceProvider provider = services.BuildServiceProvider())
             {
@@ -33,7 +33,7 @@ namespace WWB.SMS
                 {
                     throw new Exception($"Get OSS option from config file failed.");
                 }
-                return services.AddOSSService(name, o =>
+                return services.AddSMSService(name, o =>
                 {
                     o.Provider = options.Provider;
                     o.AccessKeyId = options.AccessKeyId;
@@ -42,12 +42,12 @@ namespace WWB.SMS
             }
         }
 
-        public static IServiceCollection AddOSSService(this IServiceCollection services, Action<SMSOptions> option)
+        public static IServiceCollection AddSMSService(this IServiceCollection services, Action<SMSOptions> option)
         {
-            return services.AddOSSService(DefaultOptionName.Name, option);
+            return services.AddSMSService(DefaultOptionName.Name, option);
         }
 
-        public static IServiceCollection AddOSSService(this IServiceCollection services, string name, Action<SMSOptions> option)
+        public static IServiceCollection AddSMSService(this IServiceCollection services, string name, Action<SMSOptions> option)
         {
             if (string.IsNullOrEmpty(name))
             {
