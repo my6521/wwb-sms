@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{44A9DA80-EE6A-4FC2-9C3F-D4C8BC98D61F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{CFA9C3A1-F5BB-47ED-A862-7DA87967E5BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9E409A7D-A805-4BA3-8AC0-BEF679B49882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WWB.SMS", "src\WWB.SMS\WWB.SMS.csproj", "{AD7F8A97-CFF1-411B-9B25-67E7FD9C9CD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WWB.SMS.Aliyun", "src\WWB.SMS.Aliyun\WWB.SMS.Aliyun.csproj", "{1937A9E1-6C0E-45FD-8D9E-563D04FB6088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WWB.SMS.Yunxin", "src\WWB.SMS.Yunxin\WWB.SMS.Yunxin.csproj", "{1B3D8B71-B279-4D4B-BC78-97E2C9147803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WWB.SMS.Tencent", "src\WWB.SMS.Tencent\WWB.SMS.Tencent.csproj", "{17774DC2-4E6F-47DF-9E64-D57D2583E5E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD7F8A97-CFF1-411B-9B25-67E7FD9C9CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7F8A97-CFF1-411B-9B25-67E7FD9C9CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7F8A97-CFF1-411B-9B25-67E7FD9C9CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7F8A97-CFF1-411B-9B25-67E7FD9C9CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1937A9E1-6C0E-45FD-8D9E-563D04FB6088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1937A9E1-6C0E-45FD-8D9E-563D04FB6088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1937A9E1-6C0E-45FD-8D9E-563D04FB6088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1937A9E1-6C0E-45FD-8D9E-563D04FB6088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B3D8B71-B279-4D4B-BC78-97E2C9147803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B3D8B71-B279-4D4B-BC78-97E2C9147803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B3D8B71-B279-4D4B-BC78-97E2C9147803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3D8B71-B279-4D4B-BC78-97E2C9147803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17774DC2-4E6F-47DF-9E64-D57D2583E5E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17774DC2-4E6F-47DF-9E64-D57D2583E5E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17774DC2-4E6F-47DF-9E64-D57D2583E5E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17774DC2-4E6F-47DF-9E64-D57D2583E5E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD7F8A97-CFF1-411B-9B25-67E7FD9C9CD2} = {44A9DA80-EE6A-4FC2-9C3F-D4C8BC98D61F}
+		{1937A9E1-6C0E-45FD-8D9E-563D04FB6088} = {44A9DA80-EE6A-4FC2-9C3F-D4C8BC98D61F}
+		{1B3D8B71-B279-4D4B-BC78-97E2C9147803} = {44A9DA80-EE6A-4FC2-9C3F-D4C8BC98D61F}
+		{17774DC2-4E6F-47DF-9E64-D57D2583E5E8} = {44A9DA80-EE6A-4FC2-9C3F-D4C8BC98D61F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7861CAE9-E12F-438A-9291-99E791D27505}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="TencentCloudSDK" Version="3.0.429" />
+	</ItemGroup>
+
+	<ItemGroup>
+    <ProjectReference Include="..\WWB.SMS\WWB.SMS.csproj" />
+  </ItemGroup>
+
+</Project>
