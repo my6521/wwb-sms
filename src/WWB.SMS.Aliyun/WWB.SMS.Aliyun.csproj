@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <PackageId>WWB.SMS</PackageId>
+	  <PackageId>WWB.SMS.Aliyun</PackageId>
 	  <Version>1.0.0-preview01</Version>
 	  <Authors>my6521</Authors>
 	  <Description>阿里云短信</Description>
