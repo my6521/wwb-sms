@@ -35,6 +35,7 @@ namespace WWB.SMS
                 }
                 return services.AddOSSService(name, o =>
                 {
+                    o.Provider = options.Provider;
                     o.AccessKeyId = options.AccessKeyId;
                     o.AccessKeySecret = options.AccessKeySecret;
                 });
